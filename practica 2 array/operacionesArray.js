@@ -4,10 +4,10 @@
  * agregar datos
  * eliminar datos, 
  * modificar datos
- */
+//  */
 
- const arrayFrutas=["Manzana", "Banana", "Frutillas", "Durazno", "MelÃ³n"]
- console.table(arrayFrutas)
+//  const arrayFrutas=["Manzana", "Banana", "Frutillas", "Durazno", "MelÃ³n"]
+//  console.table(arrayFrutas)
  
  //AGREGAR ELEMENTOS
      //1 - agrega elementos pero modifica el array no es lo ideal 
