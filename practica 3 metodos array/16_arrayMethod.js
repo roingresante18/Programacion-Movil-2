@@ -10,7 +10,7 @@ const numeros =[10,20,30,50,100,3000]
     
 
 //map() se observa como al aplicar arrow function se reduce mucho el código que se tenía en el archivo de los iteradores
-    // const nuevoArray= arrayFrutas.map(fruta=>fruta)
+    // const nuevoArray= 
     // console.log(nuevoArray)
 
 //filter() - es el que recorre el array y filtra según la condición - idem anterior en reducción de código

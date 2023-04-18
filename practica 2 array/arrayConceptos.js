@@ -208,7 +208,7 @@
 // productosSuper.splice(3,1,{'codigo': 9, 'nombre': "pan dulce", 'precio': 2500,'categoria':{'lacteo': false,'limpieza': false, 'bebidas': true}})
 
 //------punto4----------
-precio_nuevo = 0;
+// precio_nuevo = 0;
 const deptos = [
     {
         Cod_Inm:1,
@@ -237,13 +237,13 @@ console.log(deptos)
 //     }
 // })
 
-const deptos2 = deptos.map(function(depto){
-    cod_depto = 2;
-    if (depto.Cod_Inm === cod_depto){
-       depto.disp = false
-       precio_nuevo= depto.pre_alqu *12/100
-       depto.pre_alqu = precio_nuevo + depto.pre_alqu
-       
+const array1 = deptos.map(function(deptos){
+    cod_deptos = 1
+    if (deptos.Cod_Inm === cod_deptos){
+       deptos.disp = false
+       precio_nuevo= deptos.pre_alqu *12/100
+       deptos.pre_alqu = precio_nuevo + deptos.pre_alqu
     } 
-})
-console.log(deptos2)
+    return deptos 
+});
+console.log(array1)

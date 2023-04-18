@@ -6,7 +6,7 @@
  * modificar datos
 //  */
 
-//  const arrayFrutas=["Manzana", "Banana", "Frutillas", "Durazno", "MelÃ³n"]
+ const arrayFrutas=["Manzana", "Banana", "Frutillas", "Durazno", "MelÃ³n"]
 //  console.table(arrayFrutas)
  
  //AGREGAR ELEMENTOS
@@ -45,11 +45,12 @@
  
  //2 - Modifica elementos sin modificar el array
      // Utilizamos el mÃ©todo map, le pasamos una funciÃ³n que va a iterar por cada elemento del array
- //      const nuevoArray4= arrayFrutas.map(function(fruta){
- //                 if (fruta==="Frutillas"){
- //                     return "Mandarina"
- //                 }else{
- //                     return fruta
- //                 }
- //             })
- //             console.table(nuevoArray4)
+     console.log(arrayFrutas) 
+     const nuevoArray4= arrayFrutas.map(function(fr){
+                 if (fr==="Frutillas"){
+                     return "Mandarina"
+                 }else{
+                     return fr
+                 }
+             })
+             console.table(nuevoArray4)

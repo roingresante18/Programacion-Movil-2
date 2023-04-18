@@ -1,0 +1,27 @@
+    <%- include('../partials/header.ejs') %>
+<div>
+    <h1>Users</h1>
+    <ul>
+      <% users.forEach(function(user){%>
+      <li>
+        <article>
+          <h5>
+            <a href="/user/<%= user.id %>"
+              ><%= user.nombre + ' ' + user.apellido %></a>
+          </h5>
+          <form action="/delete-user/<%= user.id  %>" method="post">
+            <button>Eliminar usuario</button>
+          </form>
+          <hr />
+        </article>
+      </li>
+      <% }); %>
+    </ul>
+</div>
+    <%- include('../partials/footer.ejs') %>
+
+
+
+
+
+
